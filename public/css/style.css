@@ -1,0 +1,87 @@
+.home-header{
+    background-image: url(../images/headimage.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+header{
+    border-bottom: 2px solid #eeeeee;
+}
+
+.nav-link{
+    color: darkgrey;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: lightseagreen;
+}
+.nav-link.active{
+    color:white;
+    background-color:lightseagreen !important;
+}
+.menu-container{
+    padding: 15px 0;
+
+}
+
+/* offer component */
+
+.offer-page{
+    padding:30px 0 50px;
+}
+.colored{
+    color:lightseagreen;
+}
+.header-section h2{
+    position: relative;
+}
+.header-section h2:before{
+    position: absolute;
+    content: '';
+    width:35%;
+    left: 0;
+    border: 2px solid #000;
+    opacity: 0.1;
+    height: 2px;;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.header-section h2:after{
+    position: absolute;
+    content: '';
+    width:35%;
+    right: 0;
+    border: 2px solid #000;
+    opacity: 0.1;
+    height: 2px;;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+
+.offer-page .row{
+    margin-top: 30px;
+}
+
+.offer-page .btn-sm{
+    text-transform: capitalize;
+}
+
+.offer-page .btn-sm:hover{
+    background-color: lightseagreen;
+    color: #fff;
+}
+/* offer component */
+
+
+
+footer{
+    background-color: #333;
+    color:#fff;
+    font-weight:600;
+    padding:30px 0;
+}
